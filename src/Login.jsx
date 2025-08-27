@@ -12,7 +12,7 @@ function Login({ onLogin, onShowSignup }) {
 //debugger;
 
     if (!username || !password) {
-      alert("Please enter username and password");
+      alert("Please enter username & password");
       return;
     }
 
