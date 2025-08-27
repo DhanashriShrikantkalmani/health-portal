@@ -9,7 +9,7 @@ function Login({ onLogin, onShowSignup }) {
   const [showPassword, setShowPassword] = useState(false);
 
   const handleLogin = () => {
-debugger;
+//debugger;
 
     if (!username || !password) {
       alert("Please enter username and password");
